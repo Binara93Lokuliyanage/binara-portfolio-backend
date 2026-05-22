@@ -8,8 +8,7 @@ const projectSchema = new mongoose.Schema(
     description: String,
     image: String,
     video: String,
-    techStack: [
-      {name:String}],
+    techStack: [],
     liveUrl: String,
   },
   { timestamps: true }
