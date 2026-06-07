@@ -1,22 +1,26 @@
 const Project = require("../models/Project");
 
+const DEFAULT_CARD_VIDEO = "/projects/videos/card-videos/project-video.mp4";
+
+exports.getProjectsWithCustomVideos = async (req, res) => {
+  try {
+    const projects = await Project.find({
+      cardVideo: { $ne: DEFAULT_CARD_VIDEO },
+    });
+
+    res.json(projects);
+  } catch (error) {
+    res.status(500).json({
+      message: "Failed to fetch projects with custom videos",
+      error: error.message,
+    });
+  }
+};
+
 // GET all projects
 exports.getProjects = async (req, res) => {
   const projects = await Project.find();
-
-  const sortedProjects = projects.sort((a, b) => {
-    const defaultVideo = "/projects/videos/card-videos/project-video.mp4";
-
-    const aIsDefault = a.cardVideo === defaultVideo;
-    const bIsDefault = b.cardVideo === defaultVideo;
-
-    if (aIsDefault && !bIsDefault) return 1;
-    if (!aIsDefault && bIsDefault) return -1;
-
-    return 0;
-  });
-
-  res.json(sortedProjects);
+  res.json(projects);
 };
 
 // GET single project
