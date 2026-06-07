@@ -1,20 +1,13 @@
 const Project = require("../models/Project");
 
-const DEFAULT_CARD_VIDEO = "/projects/videos/card-videos/project-video.mp4";
-
-exports.getProjectsWithCustomVideos = async (req, res) => {
+exports.getFeaturedProjects = async (req, res) => {
   try {
-    const projects = await Project.find({
-      cardVideo: {
-        $exists: true,
-        $nin: [DEFAULT_CARD_VIDEO, "", null],
-      },
-    });
+    const projects = await Project.find({ featured: true });
 
     res.json(projects);
   } catch (error) {
     res.status(500).json({
-      message: "Failed to fetch custom video projects",
+      message: "Failed to fetch featured projects",
       error: error.message,
     });
   }

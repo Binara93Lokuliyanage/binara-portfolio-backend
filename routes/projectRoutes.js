@@ -5,12 +5,12 @@ const {
   getProjects,
   getProjectBySlug,
   createProject,
-  getProjectsWithCustomVideos,
+  getFeaturedProjects,
 } = require("../controllers/projectController");
 
 router.get("/", getProjects);
 router.get("/:slug", getProjectBySlug);
 router.post("/", createProject);
-router.get("/featured", getProjectsWithCustomVideos);
+router.get("/featured", getFeaturedProjects);
 
 module.exports = router;
