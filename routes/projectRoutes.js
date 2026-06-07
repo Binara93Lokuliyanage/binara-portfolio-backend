@@ -9,8 +9,8 @@ const {
 } = require("../controllers/projectController");
 
 router.get("/", getProjects);
-router.get("/:slug", getProjectBySlug);
 router.post("/", createProject);
 router.get("/featured", getFeaturedProjects);
+router.get("/:slug", getProjectBySlug);
 
 module.exports = router;
