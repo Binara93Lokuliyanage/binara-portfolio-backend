@@ -1,0 +1,440 @@
+{
+    "name": "Binara Lokuliyanage",
+    "title": "Full Stack Web Developer",
+    "location": "Melbourne, Australia",
+    "summary": "Full Stack Web Developer with around 5 years of experience building web applications, CMS websites, eCommerce platforms, REST APIs, and cloud-deployed applications. Strong background in Angular, PHP, Laravel, WordPress, Shopify, Webflow, Node.js, Express, MongoDB, MySQL, Docker, Kubernetes, CI/CD, and cloud platforms including AWS and GCP. Experienced in both hands-on development and team leadership.",
+    "careerGoal": "Seeking software engineering, full stack developer, frontend developer, backend developer, CMS developer, and web developer roles in Australia.",
+    "skills": {
+        "frontend": [
+            "Angular",
+            "TypeScript",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "SCSS",
+            "Responsive Web Design",
+            "UI Implementation",
+            "React.js"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js",
+            "PHP",
+            "Laravel",
+            "REST APIs",
+            ".NET basics",
+            "Authentication",
+            "CRUD APIs"
+        ],
+        "cms": [
+            "WordPress custom theme development",
+            "Shopify",
+            "Webflow",
+            "CMS integration",
+            "Dynamic blog systems",
+            "Custom post templates"
+        ],
+        "database": [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "MongoDB Atlas",
+            "Firestore",
+            "Database Design",
+            "Database Normalization",
+            "Schema Design",
+            "Query Optimization",
+            "Indexing",
+            "Data Modelling",
+            "CRUD Operations",
+            "Aggregation Pipelines",
+            "Stored Procedures",
+            "Database Performance Optimization",
+            "Relational Database Management",
+            "NoSQL Database Management"
+        ],
+        "cloudDevOps": [
+            "Amazon Web Services (AWS)",
+            "EC2",
+            "Linux Server Administration",
+            "Application Deployment",
+            "Production Environment Management",
+            "CI/CD Pipeline Design",
+            "GitHub Actions",
+            "Jenkins",
+            "Docker",
+            "Kubernetes",
+            "Google Cloud Platform (GCP)",
+            "Artifact Registry",
+            "Container Registry",
+            "Cloud Monitoring",
+            "Cloud Logging",
+            "Nginx",
+            "SSL Configuration",
+            "Environment Configuration",
+            "Server Troubleshooting",
+            "Deployment Automation",
+            "Infrastructure Management"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Postman",
+            "VS Code",
+            "Jira",
+            "Trello",
+            "Figma",
+            "MongoDB Atlas"
+        ]
+    },
+    "experience": [
+        {
+            "company": "Raditechs Pvt Ltd",
+            "role": "Software Engineer / Team Lead",
+            "period": "July 2019 - June 2024",
+            "summary": "Worked on web application development and later led a small development team. Built and maintained full stack applications, worked with Angular, PHP, Laravel, MySQL, APIs, and client requirements.",
+            "highlights": [
+                "Developed full stack web applications",
+                "Worked with Angular-based frontend development",
+                "Built backend features using PHP and Laravel",
+                "Handled MySQL database work",
+                "Led and supported a team of developers",
+                "Worked with Jira and client communication"
+            ]
+        },
+        {
+            "company": "Splashbox",
+            "role": "Web Developer",
+            "period": "February 2023 - June 2024",
+            "summary": "Worked remotely for an Australian company building commercial websites and web solutions using PHP, HTML, SCSS, Laravel, WordPress, Shopify, and Webflow.",
+            "highlights": [
+                "Built Webflow websites",
+                "Developed Shopify sites and features",
+                "Created custom WordPress themes",
+                "Worked with Laravel and custom CMS systems",
+                "Implemented responsive frontend layouts",
+                "Worked with Australian client/project standards"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Portfolio Backend API",
+            "type": "Personal Project",
+            "technologies": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "AWS EC2",
+                "GitHub Actions"
+            ],
+            "summary": "Backend API for personal portfolio project data, deployed to AWS EC2 with MongoDB integration.",
+            "relevance": [
+                "Backend API development",
+                "MongoDB database integration",
+                "Cloud deployment",
+                "REST API design",
+                "CI/CD deployment experience"
+            ]
+        },
+        {
+            "name": "AI Recruiter Assistant",
+            "type": "Personal Portfolio AI Project",
+            "technologies": [
+                "Node.js",
+                "Express.js",
+                "OpenAI API",
+                "MongoDB",
+                "JavaScript"
+            ],
+            "summary": "AI-powered portfolio feature that allows recruiters to paste a job description and evaluate Binara's suitability based on real profile data.",
+            "relevance": [
+                "AI API integration",
+                "Prompt engineering",
+                "Recruiter-focused product thinking",
+                "Structured JSON responses",
+                "Full stack portfolio enhancement"
+            ]
+        },
+        {
+            "name": "Salvation Auto Website",
+            "type": "Freelance Client Project",
+            "technologies": [
+                "WordPress",
+                "PHP",
+                "HTML",
+                "SCSS",
+                "JavaScript"
+            ],
+            "summary": "Custom WordPress website for an automotive business, including static pages, services, blog templates, contact sections, and future Instagram/blog integration.",
+            "relevance": [
+                "Custom WordPress theme development",
+                "Client communication",
+                "Responsive design",
+                "Dynamic blog implementation",
+                "Freelance project delivery"
+            ]
+        },
+        {
+            "name": "EduCloud",
+            "type": "University Cloud Native Project",
+            "technologies": [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "Firestore",
+                "Firebase Authentication",
+                "Google Cloud"
+            ],
+            "summary": "Cloud-native online learning platform with authentication, course management, video streaming, quizzes, progress tracking, and discussion forums.",
+            "relevance": [
+                "Full stack development",
+                "Cloud-native architecture",
+                "Firebase authentication",
+                "Frontend/backend integration",
+                "Education platform features"
+            ]
+        },
+        {
+            "name": "Calculator Microservice",
+            "type": "Cloud Native University Project",
+            "technologies": [
+                "Node.js",
+                "Express.js",
+                "Docker",
+                "Kubernetes",
+                "MongoDB",
+                "GCP"
+            ],
+            "summary": "Containerized calculator microservice deployed using Docker and Kubernetes with MongoDB integration and monitoring on Google Cloud.",
+            "relevance": [
+                "Microservices",
+                "Docker containerization",
+                "Kubernetes deployment",
+                "MongoDB CRUD operations",
+                "Cloud monitoring"
+            ]
+        },
+        {
+            "name": "MedTrack",
+            "type": "University Group Project",
+            "technologies": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Materialize CSS",
+                "Cypress"
+            ],
+            "summary": "Medication tracking application with registration, login, dashboard, medication management, caregiver features, missed-dose email notifications, and testing.",
+            "relevance": [
+                "Full stack app development",
+                "Authentication features",
+                "MongoDB data handling",
+                "Email notification logic",
+                "Cypress end-to-end testing",
+                "Scrum Master/team leadership"
+            ]
+        },
+        {
+            "name": "DTS Group CMS",
+            "type": "Commercial Project",
+            "technologies": [
+                "Laravel",
+                "PHP",
+                "MySQL",
+                "HTML",
+                "SCSS"
+            ],
+            "summary": "Custom CMS project built during commercial web development work.",
+            "relevance": [
+                "Laravel development",
+                "Custom CMS architecture",
+                "Backend and database development",
+                "Commercial delivery experience"
+            ]
+        },
+        {
+            "name": "Dual Flow Plumbing",
+            "type": "Commercial Webflow Project",
+            "technologies": [
+                "Webflow",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "summary": "Commercial Webflow website project completed during Splashbox experience.",
+            "relevance": [
+                "Webflow development",
+                "Responsive website delivery",
+                "Australian commercial project experience"
+            ]
+        },
+        {
+            "name": "Lonsdale Institute",
+            "type": "Commercial Shopify Project",
+            "technologies": [
+                "Shopify",
+                "Liquid",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "summary": "Shopify website project completed during Splashbox experience.",
+            "relevance": [
+                "Shopify development",
+                "Liquid templates",
+                "CMS/eCommerce experience"
+            ]
+        },
+        {
+            "name": "Honan Sport",
+            "type": "Commercial WordPress Project",
+            "technologies": [
+                "WordPress",
+                "PHP",
+                "HTML",
+                "SCSS",
+                "JavaScript"
+            ],
+            "summary": "Custom WordPress theme development project completed during Splashbox experience.",
+            "relevance": [
+                "WordPress custom theme development",
+                "PHP template work",
+                "Responsive frontend implementation"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Deakin University",
+            "qualification": "Master of Information Technology",
+            "location": "Melbourne, Australia",
+            "summary": "Postgraduate study focused on software development, cloud-native application development, design thinking, capstone projects, and IT project delivery."
+        },
+        {
+            "institution": "University of Colombo School of Computing",
+            "qualification": "Bachelor of Science in Information Technology",
+            "summary": "Completed undergraduate IT degree covering software development and core IT fundamentals."
+        }
+    ],
+    "strengths": [
+        "5+ years of professional software development experience",
+        "Strong full stack development experience across frontend, backend, databases, and cloud environments",
+        "Extensive commercial Angular development experience in SaaS and enterprise web applications",
+        "Strong TypeScript and JavaScript development expertise",
+        "Experience building scalable REST APIs using Node.js, Express.js, PHP, and Laravel",
+        "Commercial experience delivering software in Agile and Scrum environments",
+        "Experience collaborating with product owners, stakeholders, QA teams, designers, and developers",
+        "Team leadership and mentoring experience leading and supporting development teams",
+        "Strong problem-solving and debugging skills across frontend and backend systems",
+        "Commercial CMS development experience with WordPress, Shopify, and Webflow",
+        "Custom WordPress theme and plugin integration experience",
+        "Experience developing eCommerce and business websites for Australian clients",
+        "Database design and development experience using MongoDB, MySQL, Firestore, and relational databases",
+        "Cloud deployment experience using AWS EC2 and Google Cloud Platform",
+        "Containerization and orchestration experience using Docker and Kubernetes",
+        "CI/CD implementation experience using GitHub Actions and Jenkins",
+        "Experience working with Git-based development workflows and pull request processes",
+        "Experience building responsive and mobile-friendly user interfaces",
+        "Strong understanding of software architecture and application lifecycle management",
+        "Experience gathering requirements and translating business needs into technical solutions",
+        "Ability to quickly learn new technologies and adapt to changing project requirements",
+        "Australian commercial software development experience through Splashbox",
+        "Experience working directly with clients and stakeholders",
+        "Experience delivering freelance and custom software solutions",
+        "Strong communication skills with both technical and non-technical stakeholders",
+        "Experience working on cloud-native and microservice-based applications",
+        "Experience integrating third-party APIs and external services",
+        "Experience building authentication and authorization systems",
+        "Strong understanding of software engineering best practices and clean code principles",
+        "Proven ability to deliver projects independently from design to deployment"
+    ],
+    "domains": [
+        "SaaS Applications",
+        "Enterprise Web Applications",
+        "Content Management Systems",
+        "eCommerce Platforms",
+        "Cloud-Native Applications",
+        "Education Technology Platforms",
+        "Business Websites",
+        "Internal Management Systems",
+        "API-Driven Applications"
+    ],
+    "domainRules": [
+        "Do not claim extensive commercial fintech experience.",
+        "Highlight payment integrations, payroll processing, financial data handling, and transaction-related development when relevant.",
+        "Present fintech exposure as transferable experience unless direct fintech industry experience is requested."
+    ],
+    "leadership": [
+        "Led and mentored development team members",
+        "Conducted task planning and work allocation",
+        "Supported junior developers through technical guidance",
+        "Participated in sprint planning and Agile ceremonies",
+        "Collaborated with stakeholders and clients to deliver business requirements",
+        "Created technical documentation and knowledge-sharing resources"
+    ],
+    "limitations": [
+        "Do not claim deep commercial .NET experience; mention basic/project exposure only.",
+        "Do not claim deep banking domain experience unless the JD only requires transferable payment or integration knowledge.",
+        "Do not invent enterprise-scale AI production experience; mention AI API integration and portfolio AI project honestly.",
+        "If a role requires heavy React experience, mention some React exposure but stronger background in Angular and CMS/web development."
+    ],
+    "rules": [
+        "Use only this profile data when answering recruiter questions.",
+        "Do not invent companies, projects, tools, dates, or achievements.",
+        "If the job requires a skill not listed, say whether Binara has related transferable experience.",
+        "Be honest but positive.",
+        "Always connect Binara's experience to real projects where possible.",
+        "For match scores, consider direct skill match, related experience, project evidence, and gaps."
+    ],
+    "cloudExperience": [
+        {
+            "platform": "AWS",
+            "summary": "Commercial experience deploying and maintaining production applications in AWS environments.",
+            "responsibilities": [
+                "Provisioned and managed EC2 instances",
+                "Configured Linux server environments",
+                "Deployed Angular SaaS applications",
+                "Configured application environments and environment variables",
+                "Managed production deployments",
+                "Implemented CI/CD pipelines",
+                "Automated deployments using Git-based workflows",
+                "Performed application monitoring and troubleshooting",
+                "Managed server access and deployment processes",
+                "Supported production application maintenance and updates"
+            ]
+        },
+        {
+            "platform": "Google Cloud Platform",
+            "summary": "Experience deploying and managing cloud-native applications using containerized environments.",
+            "responsibilities": [
+                "Containerized applications using Docker",
+                "Deployed workloads to Kubernetes clusters",
+                "Configured monitoring and visibility tools",
+                "Worked with Artifact Registry",
+                "Managed microservice deployments"
+            ]
+        }
+    ],
+    "databaseExperience": [
+        "Extensive commercial experience using MySQL in production applications",
+        "Experience designing relational database schemas",
+        "Experience writing complex SQL queries",
+        "Experience optimizing database performance",
+        "Experience implementing database-driven web applications",
+        "Experience working with PostgreSQL environments",
+        "Experience designing and implementing MongoDB collections and schemas",
+        "Experience using Mongoose ODM in Node.js applications",
+        "Experience building MongoDB CRUD APIs",
+        "Experience working with both SQL and NoSQL database architectures"
+    ],
+    "fintechExperience": [
+        "Experience integrating payment-related services and APIs",
+        "Experience working with financial and payroll-related data processing",
+        "Experience generating bank-compatible payment files for payroll systems",
+        "Experience handling transaction-related business logic",
+        "Experience building secure data-driven web applications",
+        "Understanding of data integrity and validation requirements in financial workflows",
+        "Experience developing systems involving financial reporting and business operations"
+    ]
+}
