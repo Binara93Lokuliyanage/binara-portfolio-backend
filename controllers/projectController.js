@@ -5,13 +5,16 @@ const DEFAULT_CARD_VIDEO = "/projects/videos/card-videos/project-video.mp4";
 exports.getProjectsWithCustomVideos = async (req, res) => {
   try {
     const projects = await Project.find({
-      cardVideo: { $ne: DEFAULT_CARD_VIDEO },
+      cardVideo: {
+        $exists: true,
+        $nin: [DEFAULT_CARD_VIDEO, "", null],
+      },
     });
 
     res.json(projects);
   } catch (error) {
     res.status(500).json({
-      message: "Failed to fetch projects with custom videos",
+      message: "Failed to fetch custom video projects",
       error: error.message,
     });
   }
