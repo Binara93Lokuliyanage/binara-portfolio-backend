@@ -10,21 +10,7 @@ const app = express();
 connectDB();
 
 // middleware
-const allowedOrigins = [
-  "http://localhost:3000",
-  "http://localhost:5173",
-  "https://binara-portfolio-23tn8224h-binara93lokuliyanages-projects.vercel.app/",
-];
-
-app.use(
-  cors({
-    origin: allowedOrigins,
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  })
-);
-
-app.options("*", cors());
+app.use(cors());
 app.use(express.json());
 
 // routes
