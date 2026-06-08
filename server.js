@@ -1,24 +1,23 @@
-require("dotenv").config();
+const allowedOrigins = [
+  "http://localhost:3000",
+  "http://localhost:5173",
+  "https://binara-portfolio-78mh15z0p-binara93lokuliyanages-projects.vercel.app",
+];
 
-const express = require("express");
-const cors = require("cors");
-const connectDB = require("./config/db");
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: false,
+};
 
-const app = express();
+app.use(cors(corsOptions));
+app.options("*", cors(corsOptions));
 
-// connect database
-connectDB();
-
-// middleware
-app.use(cors());
 app.use(express.json());
-
-// routes
-app.use("/api/projects", require("./routes/projectRoutes"));
-app.use("/api/ai", require("./routes/aiRoutes"));
-
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () =>
-  console.log(`Server running on port ${PORT}`)
-);
