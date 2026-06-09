@@ -99,11 +99,27 @@
                 "Built backend features using PHP and Laravel",
                 "Handled MySQL database work",
                 "Led and supported a team of developers",
-                "Worked with Jira and client communication"
+                "Worked with Jira and client communication",
+                "Enterprise web application development experience",
+                "SaaS application development experience",
+                "Experience working in Agile/Scrum environments",
+                "Experience collaborating with product owners, stakeholders, and QA teams",
+                "Experience with code reviews and Git-based workflows",
+                "Experience with application architecture and design decisions",
+                "Experience with production application maintenance and updates",
+                "Experience working with both frontend and backend systems",
+                "Experience working with APIs and third-party integrations",
+                "Experience working with cloud-deployed applications",
+                "Experience setting up CI/CD pipelines and automated deployments",
+                "Experience Working with both SQL databases",
+                "AWS deployment experience, including EC2 and Linux server management",
+                "Experience working with application environment configuration and management",
+                "S3 storage experience for media handling and file management",
+                "Postman experience for API testing and development"
             ]
         },
         {
-            "company": "Splashbox",
+            "company": "Splashbox(Phacilitate) Australia",
             "role": "Web Developer",
             "period": "February 2023 - June 2024",
             "summary": "Worked remotely for an Australian company building commercial websites and web solutions using PHP, HTML, SCSS, Laravel, WordPress, Shopify, and Webflow.",
@@ -112,12 +128,65 @@
                 "Developed Shopify sites and features",
                 "Created custom WordPress themes",
                 "Worked with Laravel and custom CMS systems",
+                "Built React-based frontend features",
+                "Built Node.js backend features",
                 "Implemented responsive frontend layouts",
-                "Worked with Australian client/project standards"
+                "Worked with Australian client/project standards",
+                "Experience Working with both SQL and NoSQL databases",
+                "Experience with custom CMS development and architecture",
+                "Experience with eCommerce platform development and features",
+                "Australian commercial web development experience",
+                "Experience working with clients and stakeholders in Australia",
+                "Owning end-to-end project delivery from design to deployment",
+                "Experience working with both frontend and backend systems",
+                "Experience working with APIs and third-party integrations"
             ]
         }
     ],
     "projects": [
+        {
+            "name": "Binu AI Recruiter Assistant",
+            "type": "Personal Portfolio AI Project",
+            "technologies": [
+                "Node.js",
+                "Express.js",
+                "OpenAI API",
+                "MongoDB",
+                "React/Next.js",
+                "JavaScript",
+                "Prompt Engineering"
+            ],
+            "summary": "AI-powered recruiter assistant built into Binara's portfolio. Recruiters can paste a job description and receive a structured role-fit analysis based on Binara's real experience, skills, projects, and leadership background.",
+            "relevance": [
+                "OpenAI API integration",
+                "Prompt engineering",
+                "AI-assisted recruiter workflow",
+                "Job description analysis",
+                "Skill matching and gap identification",
+                "Structured AI response formatting",
+                "Full stack AI feature development"
+            ]
+        },
+        {
+            "name": "Personal Portfolio Frontend",
+            "type": "Personal Project",
+            "technologies": [
+                "React/Next.js",
+                "TypeScript",
+                "SCSS/CSS",
+                "Responsive Design",
+                "Netlify/Vercel"
+            ],
+            "summary": "Modern personal portfolio frontend with separate professional and freelance entry paths, animated landing experience, project showcase, responsive layouts, and Binu AI integration.",
+            "relevance": [
+                "Frontend architecture",
+                "Responsive UI development",
+                "Modern portfolio UX",
+                "API integration",
+                "Deployment to frontend hosting platforms",
+                "Professional personal branding"
+            ]
+        },
         {
             "name": "Portfolio Backend API",
             "type": "Personal Project",
@@ -125,54 +194,155 @@
                 "Node.js",
                 "Express.js",
                 "MongoDB",
+                "Mongoose",
                 "AWS EC2",
+                "PM2",
                 "GitHub Actions"
             ],
-            "summary": "Backend API for personal portfolio project data, deployed to AWS EC2 with MongoDB integration.",
+            "summary": "Backend REST API for managing portfolio project data and AI recruiter assistant requests, originally deployed to AWS EC2 with MongoDB Atlas integration.",
             "relevance": [
-                "Backend API development",
-                "MongoDB database integration",
-                "Cloud deployment",
-                "REST API design",
-                "CI/CD deployment experience"
+                "REST API development",
+                "MongoDB/Mongoose integration",
+                "Cloud deployment on AWS EC2",
+                "Environment variable and secret management",
+                "PM2 process management",
+                "CI/CD deployment workflow"
             ]
         },
         {
-            "name": "AI Recruiter Assistant",
-            "type": "Personal Portfolio AI Project",
+            "name": "Oyrus",
+            "type": "Commercial Enterprise SaaS Platform",
+            "technologies": [
+                "Angular",
+                "TypeScript",
+                "PHP",
+                "REST APIs",
+                "MySQL",
+                "AWS EC2",
+                "AWS S3",
+                "HTML5",
+                "CSS"
+            ],
+            "summary": "Enterprise SaaS platform combining POS, accounting, inventory, transaction processing, and analytics for real-time business operations.",
+            "relevance": [
+                "Enterprise full stack development",
+                "Angular and TypeScript production experience",
+                "REST API design",
+                "MySQL database workflows",
+                "AWS cloud integration",
+                "Technical leadership",
+                "POS and accounting system experience"
+            ]
+        },
+        {
+            "name": "QuickHRM",
+            "type": "Commercial Payroll SaaS Platform",
+            "technologies": [
+                "Angular",
+                "TypeScript",
+                "PHP",
+                "REST APIs",
+                "MySQL",
+                "AWS EC2",
+                "AWS S3"
+            ],
+            "summary": "Payroll SaaS platform supporting employee management, salary calculations, deductions, tax rules, compliance workflows, and payroll processing based on Sri Lankan government requirements.",
+            "relevance": [
+                "Payroll and compliance logic",
+                "Enterprise SaaS development",
+                "Angular frontend development",
+                "Backend API development",
+                "Complex business rule implementation",
+                "Technical leadership"
+            ]
+        },
+        {
+            "name": "Melbourne Open Playground",
+            "type": "Full Stack Web Platform",
+            "technologies": [
+                "Next.js",
+                "React",
+                "Node.js",
+                "Supabase",
+                "PostgreSQL",
+                "TypeScript",
+                "JavaScript"
+            ],
+            "summary": "Collaborative full stack platform using Next.js and Supabase with authentication, role-based access control, structured data workflows, and backend-driven features.",
+            "relevance": [
+                "Next.js full stack development",
+                "Supabase and PostgreSQL integration",
+                "Authentication and RBAC",
+                "API and data model design",
+                "Technical leadership",
+                "Frontend/backend integration"
+            ]
+        },
+        {
+            "name": "Logos Pneuma Institute",
+            "type": "Commercial LMS & CMS Platform",
+            "technologies": [
+                "Laravel",
+                "PHP",
+                "MySQL",
+                "Blade",
+                "REST APIs",
+                "CMS",
+                "SCSS",
+                "HTML5",
+                "JavaScript"
+            ],
+            "summary": "Laravel-based LMS and CMS platform supporting admins, lecturers, and students with course management, assignments, timed quizzes, results, file uploads, and email notifications.",
+            "relevance": [
+                "Laravel full stack development",
+                "LMS architecture",
+                "Multi-role access workflows",
+                "Timed quiz system",
+                "MySQL database design",
+                "CMS development",
+                "Email notification workflows"
+            ]
+        },
+        {
+            "name": "MedTrack",
+            "type": "University Group Project",
             "technologies": [
                 "Node.js",
                 "Express.js",
-                "OpenAI API",
                 "MongoDB",
-                "JavaScript"
+                "Materialize CSS",
+                "Cypress"
             ],
-            "summary": "AI-powered portfolio feature that allows recruiters to paste a job description and evaluate Binara's suitability based on real profile data.",
+            "summary": "Medication tracking application with registration, login, dashboard, medication management, caregiver features, missed-dose email notifications, and end-to-end testing.",
             "relevance": [
-                "AI API integration",
-                "Prompt engineering",
-                "Recruiter-focused product thinking",
-                "Structured JSON responses",
-                "Full stack portfolio enhancement"
+                "Full stack application development",
+                "Authentication workflows",
+                "MongoDB data handling",
+                "Email notification logic",
+                "Cypress testing",
+                "Scrum Master and team leadership",
+                "Healthcare-related application context"
             ]
         },
         {
-            "name": "Salvation Auto Website",
-            "type": "Freelance Client Project",
+            "name": "Calculator Microservice",
+            "type": "Cloud Native University Project",
             "technologies": [
-                "WordPress",
-                "PHP",
-                "HTML",
-                "SCSS",
-                "JavaScript"
+                "Node.js",
+                "Express.js",
+                "Docker",
+                "Kubernetes",
+                "MongoDB",
+                "GCP"
             ],
-            "summary": "Custom WordPress website for an automotive business, including static pages, services, blog templates, contact sections, and future Instagram/blog integration.",
+            "summary": "Containerized calculator microservice deployed using Docker and Kubernetes with MongoDB integration, CRUD operations, and monitoring on Google Cloud.",
             "relevance": [
-                "Custom WordPress theme development",
-                "Client communication",
-                "Responsive design",
-                "Dynamic blog implementation",
-                "Freelance project delivery"
+                "Microservices",
+                "Docker containerization",
+                "Kubernetes deployment",
+                "MongoDB CRUD operations",
+                "Cloud monitoring",
+                "GCP deployment experience"
             ]
         },
         {
@@ -192,103 +362,54 @@
                 "Cloud-native architecture",
                 "Firebase authentication",
                 "Frontend/backend integration",
-                "Education platform features"
-            ]
-        },
-        {
-            "name": "Calculator Microservice",
-            "type": "Cloud Native University Project",
-            "technologies": [
-                "Node.js",
-                "Express.js",
-                "Docker",
-                "Kubernetes",
-                "MongoDB",
-                "GCP"
-            ],
-            "summary": "Containerized calculator microservice deployed using Docker and Kubernetes with MongoDB integration and monitoring on Google Cloud.",
-            "relevance": [
-                "Microservices",
-                "Docker containerization",
-                "Kubernetes deployment",
-                "MongoDB CRUD operations",
-                "Cloud monitoring"
-            ]
-        },
-        {
-            "name": "MedTrack",
-            "type": "University Group Project",
-            "technologies": [
-                "Node.js",
-                "Express.js",
-                "MongoDB",
-                "Materialize CSS",
-                "Cypress"
-            ],
-            "summary": "Medication tracking application with registration, login, dashboard, medication management, caregiver features, missed-dose email notifications, and testing.",
-            "relevance": [
-                "Full stack app development",
-                "Authentication features",
-                "MongoDB data handling",
-                "Email notification logic",
-                "Cypress end-to-end testing",
-                "Scrum Master/team leadership"
+                "Education platform features",
+                "Google Cloud ecosystem"
             ]
         },
         {
             "name": "DTS Group CMS",
-            "type": "Commercial Project",
+            "type": "Commercial Laravel CMS Project",
             "technologies": [
                 "Laravel",
                 "PHP",
                 "MySQL",
-                "HTML",
-                "SCSS"
+                "HTML5",
+                "SCSS",
+                "CMS",
+                "JavaScript"
             ],
-            "summary": "Custom CMS project built during commercial web development work.",
+            "summary": "Custom Laravel-based CMS enabling non-technical users to manage website content independently through admin workflows.",
             "relevance": [
                 "Laravel development",
                 "Custom CMS architecture",
                 "Backend and database development",
+                "Admin workflow implementation",
                 "Commercial delivery experience"
             ]
         },
         {
-            "name": "Dual Flow Plumbing",
-            "type": "Commercial Webflow Project",
+            "name": "Honan Insurance",
+            "type": "Commercial WordPress Project",
             "technologies": [
-                "Webflow",
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "WordPress",
+                "PHP",
+                "JavaScript",
+                "HTML5",
+                "SCSS",
+                "CMS"
             ],
-            "summary": "Commercial Webflow website project completed during Splashbox experience.",
+            "summary": "Custom WordPress website for an Australian insurance client, including guided user input workflows and dynamic policy-related output generation.",
             "relevance": [
-                "Webflow development",
-                "Responsive website delivery",
+                "WordPress custom theme development",
+                "PHP template work",
+                "Dynamic user workflows",
+                "Responsive frontend implementation",
                 "Australian commercial project experience"
             ]
         },
         {
-            "name": "Lonsdale Institute",
-            "type": "Commercial Shopify Project",
-            "technologies": [
-                "Shopify",
-                "Liquid",
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "summary": "Shopify website project completed during Splashbox experience.",
-            "relevance": [
-                "Shopify development",
-                "Liquid templates",
-                "CMS/eCommerce experience"
-            ]
-        },
-        {
-            "name": "Honan Sport",
-            "type": "Commercial WordPress Project",
+            "name": "Salvation Auto Website",
+            "type": "Freelance Client Project",
             "technologies": [
                 "WordPress",
                 "PHP",
@@ -296,11 +417,103 @@
                 "SCSS",
                 "JavaScript"
             ],
-            "summary": "Custom WordPress theme development project completed during Splashbox experience.",
+            "summary": "Custom WordPress website for an automotive business, including service sections, blog templates, contact sections, responsive layouts, and future Instagram/blog integration.",
             "relevance": [
-                "WordPress custom theme development",
-                "PHP template work",
-                "Responsive frontend implementation"
+                "Custom WordPress theme development",
+                "Client communication",
+                "Responsive design",
+                "Dynamic blog implementation",
+                "Freelance project delivery"
+            ]
+        },
+        {
+            "name": "The Render Crew",
+            "type": "Commercial Laravel Business Website",
+            "technologies": [
+                "Laravel",
+                "PHP",
+                "HTML",
+                "SCSS",
+                "JavaScript"
+            ],
+            "summary": "Laravel-based business website for an Australian construction client, focused on service presentation, lead generation, and contact form workflows.",
+            "relevance": [
+                "Laravel full stack development",
+                "Contact form processing",
+                "Responsive business website delivery",
+                "Australian client project",
+                "End-to-end delivery"
+            ]
+        },
+        {
+            "name": "Bonne Maman",
+            "type": "Commercial Shopify eCommerce Project",
+            "technologies": [
+                "Shopify",
+                "Liquid",
+                "JavaScript",
+                "SCSS"
+            ],
+            "summary": "Shopify eCommerce storefront supporting product browsing, purchasing, and recipe-driven content engagement.",
+            "relevance": [
+                "Shopify development",
+                "Liquid theme customization",
+                "eCommerce storefront experience",
+                "Recipe/blog content integration",
+                "Responsive customer experience"
+            ]
+        },
+        {
+            "name": "Lonsdale Institute",
+            "type": "Commercial Shopify Education Platform",
+            "technologies": [
+                "Shopify",
+                "Liquid",
+                "JavaScript",
+                "SCSS"
+            ],
+            "summary": "Education-focused platform supporting course listings, registration workflows, Telegram gateway integration, and learning-style content presentation.",
+            "relevance": [
+                "Shopify development",
+                "Course content management",
+                "Online registration workflows",
+                "Liquid templates",
+                "Education sector project experience"
+            ]
+        },
+        {
+            "name": "Dual Flow Plumbing",
+            "type": "Commercial Webflow Project",
+            "technologies": [
+                "Webflow",
+                "HTML5",
+                "CSS",
+                "JavaScript"
+            ],
+            "summary": "Responsive Webflow business website focused on service presentation, brand trust, and simple navigation for potential customers.",
+            "relevance": [
+                "Webflow development",
+                "Responsive website delivery",
+                "Business website UX",
+                "Australian commercial project experience"
+            ]
+        },
+        {
+            "name": "Vibrant Insights",
+            "type": "Commercial Webflow Business Website",
+            "technologies": [
+                "Webflow",
+                "HTML5",
+                "CSS",
+                "JavaScript"
+            ],
+            "summary": "Modern Webflow website designed to present services with strong branding, clean layouts, structured content, and responsive user experience.",
+            "relevance": [
+                "Webflow full website build",
+                "UI/UX implementation",
+                "Responsive design",
+                "Content structuring",
+                "Commercial web delivery"
             ]
         }
     ],
