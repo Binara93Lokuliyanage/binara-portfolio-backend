@@ -152,7 +152,8 @@
                 "Express.js",
                 "OpenAI API",
                 "MongoDB",
-                "React/Next.js",
+                "React.js",
+                "Next.js",
                 "JavaScript",
                 "Prompt Engineering"
             ],
@@ -171,7 +172,8 @@
             "name": "Personal Portfolio Frontend",
             "type": "Personal Project",
             "technologies": [
-                "React/Next.js",
+                "React.js",
+                "Next.js",
                 "TypeScript",
                 "SCSS/CSS",
                 "Responsive Design",
@@ -560,7 +562,23 @@
         "Experience integrating third-party APIs and external services",
         "Experience building authentication and authorization systems",
         "Strong understanding of software engineering best practices and clean code principles",
-        "Proven ability to deliver projects independently from design to deployment"
+        "Proven ability to deliver projects independently from design to deployment",
+        "Adaptability to work on a wide range of project types and technologies",
+        "Experience working with both SQL and NoSQL databases",
+        "Experience with application monitoring, logging, and troubleshooting in production environments",
+        "Experience working with both frontend and backend systems in full stack development",
+        "Experience working with cloud-deployed applications and managing production environments",
+        "Experience with application environment configuration and management",
+        "Innovative Leadership for mentoring and guiding development teams, by creating short videos and fostering collaboration, and driving project success",
+        "Experience with code reviews, knowledge sharing, and technical documentation to support team growth and maintain code quality",
+        "Experience with project management tools like Jira and Trello for task planning and tracking",
+        "Experience working with clients and stakeholders to gather requirements, provide updates, and deliver solutions that meet business needs",
+        "Experience with application architecture and design decisions to build scalable and maintainable software solutions",
+        "Experience with production application maintenance, updates, and troubleshooting to ensure ongoing reliability and performance",
+        "Core understanding of software development principles, design patterns, and best practices to build high-quality software solutions",
+        "Fast learner with the ability to quickly adapt to new technologies, frameworks, and project requirements in a dynamic software development environment",
+        "Strong problem-solving skills with the ability to analyze complex issues, identify root causes, and implement effective solutions across both frontend and backend systems"
+        
     ],
     "domains": [
         "SaaS Applications",
@@ -571,7 +589,9 @@
         "Education Technology Platforms",
         "Business Websites",
         "Internal Management Systems",
-        "API-Driven Applications"
+        "API-Driven Applications",
+        "Financial and Payroll Systems",
+        "Fintech-related Integrations and Workflows"
     ],
     "domainRules": [
         "Do not claim extensive commercial fintech experience.",
@@ -584,13 +604,21 @@
         "Supported junior developers through technical guidance",
         "Participated in sprint planning and Agile ceremonies",
         "Collaborated with stakeholders and clients to deliver business requirements",
-        "Created technical documentation and knowledge-sharing resources"
+        "Created technical documentation and knowledge-sharing resources",
+        "Led the backend team for the Melbourne Open Playground project, guiding architecture decisions and implementation",
+        "Scrum Master for the MedTrack project, facilitating team collaboration and project delivery",
+        "Innovative leadership through creating short video series called 'Demo Shorts' to share knowledge and foster team growth which highly appreciated by university professors and peers",
+        "Experience with code reviews, providing constructive feedback, and maintaining code quality standards",
+        "Experience with project management tools like Jira and Trello for task planning, tracking, and team coordination",
+        "Experience working with clients and stakeholders to gather requirements, provide updates, and deliver solutions that meet business needs",
+        "Experience with application architecture and design decisions to build scalable and maintainable software solutions"
     ],
     "limitations": [
-        "Do not claim deep commercial .NET experience; mention basic/project exposure only.",
+        "Do not claim deep commercial .NET experience; mention hands-on exposure only.",
+        "Do not claim deep commercial python experience; mention basic/project exposure only.",
         "Do not claim deep banking domain experience unless the JD only requires transferable payment or integration knowledge.",
         "Do not invent enterprise-scale AI production experience; mention AI API integration and portfolio AI project honestly.",
-        "If a role requires heavy React experience, mention some React exposure but stronger background in Angular and CMS/web development."
+        "If a role requires heavy React experience, mention good React exposure but stronger background in Angular development."
     ],
     "rules": [
         "Use only this profile data when answering recruiter questions.",
@@ -598,7 +626,7 @@
         "If the job requires a skill not listed, say whether Binara has related transferable experience.",
         "Be honest but positive.",
         "Always connect Binara's experience to real projects where possible.",
-        "For match scores, consider direct skill match, related experience, project evidence, and gaps."
+        "For match scores, consider direct skill match, related experience, adaptability to new technologies, project evidence, and gaps."
     ],
     "cloudExperience": [
         {
